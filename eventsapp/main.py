@@ -21,7 +21,7 @@ from os.path import abspath, dirname
 # This way you avoid first loading kivy default images and .kv then
 # loading your data files on top.
 os.environ['KIVY_DATA_DIR'] = abspath(dirname(__file__)) + '/data'
-#os.environ["PYCONF_OFFLINE_MODE"] = "1"
+os.environ["PYCONF_OFFLINE_MODE"] = "1"
 
 # import App this is the main Class that manages UI's event loop
 from kivy.app import App
@@ -46,11 +46,11 @@ class ConApp(App):
     Our main app class:
     '''
 
-    base_active_bright = ListProperty((216/255., 34/255., 118/255., 1))
+    base_active_bright = ListProperty((233/255., 144/255., 64/255., 1))
     '''
     '''
 
-    base_active_color = ListProperty([62./256., 30./256., 101./255, 1])
+    base_active_color = ListProperty([73./256., 157./255., 183./255, 1])
     '''This is the base Color in the app that is used to denote the currently
     active widgets, active buttons and highlited areas. Format
     is RGBA.

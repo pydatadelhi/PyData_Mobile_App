@@ -12,7 +12,7 @@ class ScreenOpenSpaces(Screen):
     ScrollView
         ScrollGrid
             AsyncImage
-                source: "http://hrexperience.it/wp-content/uploads/2012/12/openspace.gif"
+                source: "http://paste.opensuse.org/view/raw/7180737"
                 size_hint_y: None
                 allow_stretch: True
                 height: dp(200)

@@ -206,7 +206,7 @@ class MarkerMapLayer(MapLayer):
     def insert_marker(self, marker, **kwargs):
         if self.order_marker_by_latitude:
             before = list(takewhile(
-                lambda (i, m): m.lat < marker.lat,
+                lambda i_m: i_m[1].lat < marker.lat,
                 enumerate(self.children)
             ))
             if before:
@@ -231,7 +231,6 @@ class MarkerMapLayer(MapLayer):
         mapview = self.parent
         set_marker_position = self.set_marker_position
         bbox = None
-        latest_bbox_size = dp(48)
         # reposition the markers depending the latitude
         markers = sorted(self.markers, key=lambda x: -x.lat)
         margin = max((max(marker.size) for marker in markers))

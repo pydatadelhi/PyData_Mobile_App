@@ -51,11 +51,11 @@ class NavigationScreen(Screen):
                 on_released:
                     load_screen(\
                     'ScreenSchedule', manager=app.navigation_manager)
-            # MenuButton
-            #     text: 'Sponsors'
-            #     on_released:
-            #         load_screen(\
-            #         'ScreenSponsor', manager=app.navigation_manager)
+            MenuButton
+                text: 'Sponsors'
+                on_released:
+                    load_screen(\
+                    'ScreenSponsor', manager=app.navigation_manager)
             MenuButton
                 text: 'Venue'
                 on_released:
@@ -66,28 +66,28 @@ class NavigationScreen(Screen):
                 on_released:
                     load_screen(\
                     'ScreenOpenSpaces', manager=app.navigation_manager)
-            # MenuButton
-            #     text: 'DevSprints'
-            #     on_released:
-            #         load_screen(\
-            #         'ScreenDevSprints', manager=app.navigation_manager)
+            MenuButton
+                text: 'DevSprints'
+                on_released:
+                    load_screen(\
+                    'ScreenDevSprints', manager=app.navigation_manager)
             MenuButton
                 text: 'Conference Feedback'
                 on_released:
                     scr = load_screen("ScreenFeedback", manager=app.navigation_manager)
-                    scr.talk = "Global Fintech Conference 2019 "
+                    scr.talk = app.event_name
             MenuButton
                 text: 'Community'
                 on_released:
                     load_screen(\
                     'ScreenCommunity', manager=app.navigation_manager)
-            # MenuButton
-            #     down_count: 0
-            #     text: 'Registration'
-            #     on_released: self.down_count += 1
-            #     on_down_count:
-            #         if args[1] == 5:load_screen(\
-            #         'ScreenRegister', manager=app.navigation_manager); self.down_count = 0
+            MenuButton
+                down_count: 0
+                text: 'Registration'
+                on_released: self.down_count += 1
+                on_down_count:
+                    if args[1] == 5:load_screen(\
+                    'ScreenRegister', manager=app.navigation_manager); self.down_count = 0
             MenuButton
                 text: 'About'
                 on_released:

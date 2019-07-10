@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Global Fintech Conference 2019
+title = PyDataDelhi Conf 2019
 
 # (str) Package name
-package.name = gfcconf
+package.name = conf2019
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.blockchaindevs
+package.domain = org.pydataddelhi
 
 # (str) Source code where the main.py live
 source.dir = eventsapp
@@ -36,7 +36,7 @@ version = 0.4.0
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = python2, android, kivy, openssl, requests, futures, sentry-sdk==0.3.0, urllib3, certifi
+requirements = python3, android, kivy, openssl, requests, futures, sentry-sdk==0.3.0, urllib3, certifi
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes

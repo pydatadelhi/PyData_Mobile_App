@@ -44,7 +44,7 @@ class StartupScreen(Screen):
     height: (self.texture_size[1] + dp(9)) if self.text else 0
     backcolor:
         (app.base_active_color[:3] if self.active else\
-        app.base_inactive_color[:3]) + [.3]
+        app.base_inactive_color[:3]) + [.7]
     color: (.22, .22, .22, 1) if not self.active else (1, 1, 1, 1)
     text_size: self.width - dp(9), None
     halign: 'center'
@@ -92,6 +92,12 @@ class StartupScreen(Screen):
 
 <AsyncImage>
     anim_delay: .05
+
+<CTextInput@TextInput>
+    background_color: app.base_active_color if not self.focused else app.base_active_bright
+    background_active: 'atlas://data/default/ti_white'
+    background_normal: 'atlas://data/default/ti_white'
+
 
 <StartupScreen>
     name: 'StartupScreen'

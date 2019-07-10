@@ -23,7 +23,7 @@ class ScreenFeedback(Screen):
                 size_hint_y: None
                 height: dp(45)
                 BackLabel
-                    text: 'Rating: {}'.format(sldr.value)
+                    text: 'Rating: {0:.2f}'.format(sldr.value)
                     size_hint_x: .5
                     pos_hint: {'center_y': .5}
                 Slider
@@ -39,17 +39,17 @@ class ScreenFeedback(Screen):
                     border_horizontal: 0, 0, 0, 0
                     min: 0
                     max: 10
-            TextInput:
+            CTextInput:
                 id: ti_name
                 size_hint_y: None
                 height: dp(45)
                 hint_text: 'Your Name here...'
-            TextInput:
+            CTextInput:
                 id: ti_ticketid
                 size_hint_y: None
                 height: dp(45)
                 hint_text: 'Your Ticket ID...'
-        TextInput:
+        CTextInput:
             id: ti_description
             hint_text: 'Enter detailed feedback here...'
         ActiveButton
@@ -64,7 +64,7 @@ class ScreenFeedback(Screen):
                 ticketid = "Ticketid: " + ti_ticketid.text
                 import webbrowser
                 webbrowser.open(\
-                "mailto:contact@blockchaincon.io?Subject=TalkFeedback&body" +\
+                "mailto:delhi@pydata.org?Subject=TalkFeedback&body" +\
                 "={}".format("\\n\\n".join((rating, title, detailed_description\
                 , name, ticketid))))
 ''')

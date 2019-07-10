@@ -1,18 +1,16 @@
 {
   "0.0.1":[{
-  "name": "blockchaincon.io 2019",
-  "venue": "Shankar Lal Concert Hall on 23rd Feb\n DU Conference Hall on 24th Feb",
+  "name": "PyDataDelhi 2019",
+  "venue": "IIIT Delhi on 3rd - 4th August",
   "start_date": "2019-02-23T8:00:00Z",
   "end_date": "2019-02-24T18:00:00Z",
   "venue_partners": [{
-      "name": "Ramanujan College Delhi University",
-      "about": "Ramanujan college is a premier institution of the University of Delhi and has been accredited grade `A` by the National Assessment and Accreditation Council (NAAC). We at Ramanujan College emphasize on the holistic development of personality and meaningful exposure to real world and in the process attain excellence. In this endeavour to organise a value packed Global FinTech Conference, Department of Commerce, Computer Science and Management Studies of Ramanujan College have locked their synergies together.",
-      "url": "http://rcdu.ac.in",
+      "name": "Indraprastha Institute of Information Technology, Delhi",
+      "about": "Indraprastha Institute of Information Technology, Delhi is an autonomous university in Delhi, India. It is a research-oriented university with a focus on Computer Science & allied areas like Mathematics, Electronics, Design, Social Science and Bioscience.",
+      "url": "https://www.iiitd.ac.in",
       "photo": "data/images/venue.png",
-      "directions": "https://www.google.com/maps/dir//Sir+Shankar+Lal+Concert+Hall,+7%2F4,+Vishvavidalaya+Marg,+Kamla+Nehru+Ridge,+Civil+Lines,+Delhi,+110007/@28.6926841,77.2153808,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfdc002653047:0x3509b0ac7081df7f!2m2!1d77.2175695!2d28.6926841",
-      "directions1": "https://www.google.com/maps/place/DU+Conference+Centre,+North+Campus./@28.6879383,77.2080745,17z/data=!4m5!3m4!1s0x390cfd93a2b7227d:0x88f016ea5cb8b1bb!8m2!3d28.6879383!4d77.2102632",
-      "coords": "28.6926841,77.2153808",
-      "coords1": "28.6879383,77.2080745"
+      "directions": "https://www.google.com/maps/dir//IIIT+Delhi/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x390ce3e564daac1d:0x2c582e340e7bc556?sa=X&ved=2ahUKEwjFg8jV_IHjAhWFOY8KHRsBCo0Q9RcwF3oECAoQEA",
+      "coords": "28.5456282,77.2731505"
     }]
   }]
 }

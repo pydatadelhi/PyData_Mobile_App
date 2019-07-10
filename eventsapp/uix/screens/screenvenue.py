@@ -45,14 +45,14 @@ class ScreenVenue(Screen):
             spacing: dp(13)
             padding: dp(4)
             ActiveButton:
-                text: 'Directions 23rd Feb'
+                text: 'Directions'
                 on_release:
                     import webbrowser
                     webbrowser.open(app.screenschedule.event['venue_partners'][0]['directions'])
-            ActiveButton:
-                text: 'Directions 24th Feb'
-                on_release:
-                    import webbrowser
-                    webbrowser.open(app.screenschedule.event['venue_partners'][0]['directions1']) 
+            # ActiveButton:
+            #     text: 'Directions'
+            #     on_release:
+            #         import webbrowser
+            #         webbrowser.open(app.screenschedule.event['venue_partners'][0]['directions1']) 
 ''')
 

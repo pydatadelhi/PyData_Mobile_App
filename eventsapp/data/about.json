@@ -2,8 +2,8 @@
  "0.0.1": [
    {
     "logo": "atlas://data/default/logo",
-    "website":"http://blockchaincon.io",
-    "about":"Take part in the exploration of the Global FinTech universe! Focusing on in-depth talks, hands-on workshops, and finding new opportunities, Global FinTech Conference provides space for everyone to exchange, share and grow your idea together. "
+    "website":"https://pydata.org/delhi2019",
+    "about":"PyData conferences bring together users and developers of data analysis tools to share ideas and learn from each other. The PyData community gathers to discuss how best to apply Python tools, as well as tools using R and Julia, to meet evolving challenges in data management, processing, analytics, and visualization.\n\nWe aim to be an accessible, community-driven conference, with tutorials for novices, advanced topical workshops for practitioners, and opportunities for package developers and users to meet in person."
    }
   ]
 }

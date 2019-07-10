@@ -42,7 +42,7 @@ class ScreenAbout(Screen):
                     on_release:
                         import webbrowser
                         webbrowser.open(\
-                        'https://github.com/BlockchainDevs/BlockchainDevs-Mobile-App')
+                        'https://github.com/pydatadelhi/PyData_Mobile_App')
     Label
         canvas.before:
             Color:
@@ -53,7 +53,7 @@ class ScreenAbout(Screen):
         size_hint_y: None
         height: dp(45)
         color: app.base_inactive_color
-        text: 'With Love by BlockchainDevs Volunteers'
+        text: 'With Love by Volunteers'
         font_size: dp(15)
         bold: True
         # size_hint_y: None
