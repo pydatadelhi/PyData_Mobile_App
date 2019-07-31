@@ -1,123 +1,46 @@
 {
   "0.0.1": [
     {
-      "name": "De Shaw & Co",
+      "name": "Go-Jek",
       "type": "Platinum",
-      "website": "https://www.deshawindia.com/",
-      "logo": "https://in.pycon.org/2018/img/sponsors/DESCO_Logo_2c.jpg",
-      "about": "D. E. SHAW INDIA PRIVATE LIMITED ('DESIS') is a part of the D. E. Shaw group, a global investment and technology development firm founded in 1988 with more than $47 billion in investment capital as of January 1, 2018, and offices in North America, Europe, and Asia."
+      "website": "https://www.gojek.io/",
+      "logo": "https://pydata.org/delhi2019/media/sponsor_files/Logo_B_G_1.png",
+      "about": "GOJEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest-growing unicorn building an on-demand empire."
     },
     {
-      "name": "GOJEK",
+      "name": "Barclays",
       "type": "Platinum",
-      "website": "https://www.go-jek.com/",
-      "logo": "https://in.pycon.org/2018/img/sponsors/go-jek.png",
-      "about": "Established in 2010 as a motorcycle ride-hailing phone service, GO-JEK has evolved into an on-demand mobile platform and a cutting-edge app, providing a wide range of services that includes transportation, logistics, mobile payments, food delivery, and many other on-demand services.”"
+      "website": "https://home.barclays/",
+      "logo": "https://pydata.org/delhi2019/media/sponsor_files/file-4.jpeg",
+      "about": "Barclays moves, lend, invests and protect money for customers and clients worldwide. We are a Transatlantic Consumer, Corporate and Investment bank offering products and services across Personal, Corporate and Investment Banking, Credit cards and Wealth management, with a strong presence in our two home markets of the UK and the US."
     },
     {
-      "name": "Indeed",
-      "type": "Platinum",
-      "website": "https://www.indeed.jobs/career/JobListHyderabad",
-      "logo": "https://in.pycon.org/2018/img/sponsors/indeed.png",
-      "about": "Come help Indeed work. We are looking to grow our teams with people who share our energy and enthusiasm for creating the best experience for job seekers and employers."
-    },
-    {
-      "name": "AQR",
-      "type": "Platinum",
-      "website": "https://www.aqr.com",
-      "logo": "https://in.pycon.org/2018/img/sponsors/aqr.jpg",
-      "about": "AQR is a global investment management firm dedicated to delivering results for our clients.  "
-    },
-    {
-      "name": "Pramati",
+      "name": "Python Software Foundation",
       "type": "Gold",
-      "website": "https://www.pramati.com",
-      "logo": "https://in.pycon.org/2018/img/sponsors/Pramati.png",
-      "about": "Pramati builds independent companies focused on profitable, well-defined markets. Our model works because we increase the probability of success for our companies."
+      "website": "https://www.python.org/psf/",
+      "logo": "https://pydata.org/delhi2019/media/sponsor_files/psf-logo-372x84-alpha.png",
+      "about": "he mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership"
     },
     {
-      "name": "Soroco",
+      "name": "Onepanel",
       "type": "Gold",
-      "website": "http://www.soroco.com/",
-      "logo": "https://in.pycon.org/2018/img/sponsors/soroco.png",
-      "about": "Data-driven automation of entire business functions"
+      "website": "https://www.onepanel.io/",
+      "logo": "https://pydata.org/delhi2019/media/sponsor_files/openpanel.png",
+      "about": "Onepanel is an open and extensible platform for building, training and deploying reproducible deep learning applications at scale. Onepanel enables distributed teams to build, train and deploy deep learning applications on a fully managed, distributed and elastic infrastructure. Our pre-built environments are loaded with familiar open-source tools and can scale to many instances for training complex models. Code, data, parameters and environments are version controlled and reproducible, simplifying collaboration, knowledge transfer and accelerating ideation. Onepanel is based on Kubernetes and can be deployed on-premise or on any cloud provider."
     },
     {
-      "name": "Live Health",
-      "type": "Gold",
-      "website": "https://livehealth.in/",
-      "logo": "https://in.pycon.org/2018/img/sponsors/LiveHealth_logo.png",
-      "about": "Automating\nHealthcare Diagnostics\nWe enable our customers to deliver a more digital & connected experience."
-    },
-    {
-      "name": "IBM",
-      "type": "Gold",
-      "website": "http://www.ibm.com/in",
-      "logo": "https://in.pycon.org/2018/img/sponsors/ibm.png",
-      "about": "International Business Machine"
-    },
-    {
-      "name": "VMWare",
-      "type": "Gold",
-      "website": "https://www.vmware.com/in/company.html",
-      "logo": "https://in.pycon.org/2018/img/sponsors/VMware_logo.jpg",
-      "about": "We Are VMware\nAt VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world."
-    },
-    {
-      "name": "Corteva",
-      "type": "Gold",
-      "website": "https://www.corteva.com/",
-      "logo": "https://in.pycon.org/2018/img/sponsors/corteva.png",
-      "about": "We bring our global presence, deep knowledge and diverse resources so that farms can flourish, moving our world forward."
-    },
-    {
-      "name": "Zauba",
-      "type": "Gold",
-      "website": "https://zauba.company",
-      "logo": "https://in.pycon.org/2018/img/sponsors/zaubacorp.png",
-      "about": "We don’t build products, websites or applications.\n\nWe create impact that\nREVOLUTIONISES\nentire industries."
-    },
-    {
-      "name": "Fosee",
+      "name": "Elastic",
       "type": "Silver",
-      "website": "https://www.fosee.in/",
-      "logo": "https://in.pycon.org/2018/img/sponsors/fossee.png",
-      "about": "FOSSEE (Free and Open Source Software in Education) project promotes the use of FOSS tools to improve the quality of education in our country. We aim to reduce dependency on proprietary software in educational institutions. We encourage the use of FOSS tools through various activities to ensure commercial software is replaced by equivalent FOSS tools. We also develop new FOSS tools and upgrade existing tools to meet requirements in academia and research. "
+      "website": "https://www.elastic.co",
+      "logo": "https://pydata.org/delhi2019/media/sponsor_files/elastic-logo-V-full_color.png",
+      "about": ""
     },
     {
-      "name": "Zomega",
+      "name": "O4S",
       "type": "Silver",
-      "website": "http://www.zeomega.com/",
-      "logo": "https://in.pycon.org/2018/img/sponsors/zeomega.png",
-      "about": "ZeOmega provides HIE-enabled population health management solutions for any healthcare organization that assumes clinical and financial risk. Our comprehensive solutions help you achieve the desired health quality and cost outcomes for your patients while putting them at the center of a collaborative approach to healthcare management and delivery. Any organization seeking to improve outcomes, control costs, and increase patient satisfaction needs capabilities built on five essential pillars."
-    },
-    {
-      "name": "DBS",
-      "type": "Silver",
-      "website": "https://www.dbs.com/asia-hub-2/index.html",
-      "logo": "https://in.pycon.org/2018/img/sponsors/DBS_Logo.png",
-      "about": "DBS is a leading financial services group in Asia that has been at the forefront of creating and delivering best-in-class solutions for our customers."
-    },
-    {
-      "name": "Pipal Academy",
-      "type": "Associate",
-      "website": "http://www.pipal.in/",
-      "logo": "http://paste.opensuse.org/view/raw/34063737",
-      "about": "Pipal Academy is a collective of experienced technologists, who care deeply about the art of software development. They offer in-depth courses on niche technical topics. Pipal Academy regularly conducts public workshops in Bangalore and also offer on-site corporate training."
-    },
-    {
-      "name": "Reckonsys",
-      "type": "Associate",
-      "website": "https://www.reckonsys.com",
-      "logo": "https://in.pycon.org/2018/img/sponsors/reckonsys.png",
-      "about": "We are a Software Product Development Firm obsessed with creating uncommon solutions for common problems by making use of the right technologies and best practices. We work with Startup founders to build their MVP’s and with existing Enterprises to help solve interesting problems."
-    },
-    {
-      "name": "Atonarp",
-      "type": "Associate",
-      "website": "https://www.atonarp.com",
-      "logo": "https://in.pycon.org/2018/img/sponsors/atonarp.png",
-      "about": "At Atonarp, we are revolutionising how we sense, collect, process and interpret data at the molecular level. Our teams work out of Tokyo, California and Bengaluru with a focus on scientific technology platforms for molecular analysis. Backed by precision engineering and R&D in emerging technologies, we have built one of the most intelligent and user-friendly mass spectrometers in the world. Starting with pharmaceutical lyophilisation, we now enable powerful process analytical solutions across a range of industries."
+      "website": "https://o4s.io/",
+      "logo": "https://pydata.org/delhi2019/media/sponsor_files/O4S_logo_Final_w_shadows_1.png",
+      "about": "O4S is a SaaS-based technology startup that enables companies to have a 360° control over their downstream supply chain via a suite of easily scalable desktop software and mobile apps. O4S is currently working with over 25 prominent brands such as ITC Limited, PepsiCo Inc., Honeywell International, Campus Activewear and aims to re-establish the loyal connect between the brands and kirana stores/retailers, simultaneously preventing product counterfeits."
     }
   ]
 }
