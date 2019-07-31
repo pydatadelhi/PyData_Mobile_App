@@ -11,24 +11,25 @@
 			}
 		},
 		"01": {
-			"title": "Innauguration Ceremony",
+			"title": "Innauguration Notes",
 			"description": "Esteemed members of the organising Commitee and prominent personalities would be innaugurating the Conference.",
 			"type": "innauguration",
 			"speaker": {
-				"name": "Delhi University",
-				"info": "Ramanujan college is a premier institution of the University of Delhi and has been accredited grade `A` by the National Assessment and Accreditation Council (NAAC). We at Ramanujan College emphasize on the holistic development of personality and meaningful exposure to real world and in the process attain excellence. In this endeavour to organise a value packed Global FinTech Conference, Department of Commerce, Computer Science and Management Studies of Ramanujan College have locked their synergies together.",
-				"photo": "data/images/inauguration.jpg",
+				"name": "Sanket Verma",
+				"info": "Currently Research @ Forensic, Govt. of India and Chair, @pydatadelhi.",
+				"photo": "https://pbs.twimg.com/profile_images/808566586953138176/9nscztGo_400x400.jpg",
 				"social": {
-					"website": "http://rcdu.in"
+					"twitter": "https://twitter.com/MSanKeys963"
+					"website": "http://pydata.org/delhi2019"
 				}
 			}
 		},
 		"02": {
-			"title": "Blockchain for money market and intra day settelment",
+			"title": "IIITD Introduction",
 			"description": "",
 			"type": "talk",
 			"speaker": {
-				"name": "Debajani Mohanty",
+				"name": "Vikram Goyal & Rajiv Ratan Shah",
 				"info": "Author of Amazon bestseller “BlockChain from Concept to Execution” and “Ethereum for Architects and Developers”. Debajani is a NASSCOM event speaker, Honorary Faculty with Amity University and among the international panels of mentors at Kerala BlockChain Academy, the first BlockChain Academy in India. Debajani is also a woman activist and writer. She has been felicitated by Nobel Peace prize winner Mr Kailash Satyarthi with the prestigious Aarya award for her outstanding contributions to women empowerment in the field of literature. ",
 				"photo": "data/images/debajanim.jpeg",
 				"social": {
