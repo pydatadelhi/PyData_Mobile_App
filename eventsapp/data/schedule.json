@@ -1,1 +1,273 @@
-404: Not Found
+{
+  "0.0.1": [
+    {
+      "tracks": ["C01", "C11", "C02" ],
+      "2019-08-3": [
+        {"order":[1,2,3]},
+        {
+          "talk_id": "00",
+          "title": "Coffee & Registration",
+          "start_time": "08:00",
+          "end_time": "8:50",
+          "track": "all"
+        },
+        {
+          "talk_id": "01",
+          "title": "Opening Notes by Sanket Verma (Hall C101)",
+          "start_time": "09:00",
+          "end_time": "09:20",
+          "track": "all"
+        },
+        {
+          "talk_id": "02",
+          "title": "IIITD Introduction by Vikram Goyal, Rajiv Ratn Shah (Hall C101)",
+          "start_time": "09:20",
+          "end_time": "09:30",
+          "track": "all"
+        },
+        {
+          "talk_id": "03",
+          "title": "The Power of Data Science to Measure Unmeasured Parameters in Emerging Markets by Prukalpa Sankar (Hall C101)",
+          "start_time": "09:30",
+          "end_time": "10:30",
+          "track": "all"
+        },
+        {
+          "talk_id": "04",
+          "title": "Fundamental Results in ML and How to Use Them by Jaidev Deshpande",
+          "start_time": "10:30",
+          "end_time": "11:15",
+          "track": "1"
+        },
+        {
+          "talk_id": "05",
+          "title": "Intelligent recruitment using NLP and machine learning to identify the most suitable candidates by Victor Robin",
+          "start_time": "10:30",
+          "end_time": "11:15",
+          "track": "2"
+        },
+        {
+          "talk_id": "06",
+          "title": "Quantitative Finance with R by Harshit Joshi, Vedant Bonde",
+          "start_time": "10:30",
+          "end_time": "12:40",
+          "track": "3"
+        },
+        {
+          "talk_id": "07",
+          "title": "How GPU Computing literally saved me at work by Abhishek Mungoli",
+          "start_time": "11:15",
+          "end_time": "12:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "08",
+          "title": "The Magic of Numpy by Sarah Masud",
+          "start_time": "11:15",
+          "end_time": "12:00",
+          "track": "2"
+        },
+        {
+          "talk_id": "09",
+          "title": "Auria Kathi - The power of Multi Model Machine Learning Pipelines by Sleeba Paul",
+          "start_time": "12:00",
+          "end_time": "12:40",
+          "track": "1"
+        },
+        {
+          "talk_id": "10",
+          "title": "Understanding Opacity in Machine Learning Models by Ankit Rathi, Yatin Bhatia",
+          "start_time": "12:00",
+          "end_time": "12:40",
+          "track": "2"
+        },
+        {
+          "talk_id": "11",
+          "title": "Research @ IIITD by Rajiv Ratn Shah", 
+          "start_time": "12:40",
+          "end_time": "13:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "12",
+          "title": "Contests & Pop Quiz",
+          "start_time": "12:40",
+          "end_time": "13:00",
+          "track": "2"
+        },
+        {
+          "talk_id": "97",
+          "title": "Lunch & Networking",
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "track": "all"
+        },
+        {
+          "talk_id": "13",
+          "title": "Lightning talks",
+          "start_time": "14:30",
+          "end_time": "15:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "14",
+          "title": "Deepening Democracy through Data: Learnings from Indian Politics and Policy by Roshan Shankar",
+          "start_time": "14:30",
+          "end_time": "15:00",
+          "track": "2"
+        },
+        {
+          "talk_id": "15",
+          "title": "Transfer Learning in Natural Language Processing by Janu Verma",
+          "start_time": "15:00",
+          "end_time": "15:45",
+          "track": "1"
+        },
+        {
+          "talk_id": "16",
+          "title": "Automating Data Pipeline using Apache Airflow by Mridu Bhatnagar",
+          "start_time": "15:00",
+          "end_time": "15:45",
+          "track": "2"
+        },
+        {
+          "talk_id": "17",
+          "title": "Tips, Tricks and Topics in Text Analysis by Bhargav Srinivasa Desikan",
+          "start_time": "15:00",
+          "end_time": "17:10",
+          "track": "3"
+        },
+        {
+          "talk_id": "18",
+          "title": "Sponsored Talk [Barclays Bank]",
+          "start_time": "15:45",
+          "end_time": "17:10",
+          "track": "1"
+        },
+        {
+          "talk_id": "19",
+          "title": "Generating Sorting Networks using NEAT by Parth Raghav",
+          "start_time": "15:45",
+          "end_time": "16:30",
+          "track": "2"
+        },
+        {
+          "talk_id": "20",
+          "title": "Generating tabla note sequences with Markov Chains and Processing/p5.js by Keshav Joshi",
+          "start_time": "16:30",
+          "end_time": "17:10",
+          "track": "2"
+        },
+        {
+          "talk_id": "21",
+          "title": "Invited Talk: James Powell",
+          "start_time": "17:10",
+          "end_time": "17:40",
+          "track": "1"
+        },
+        {
+          "talk_id": "34",
+          "title": "Closing & Group Photo",
+          "start_time": "17:50",
+          "end_time": "18:00",
+          "track": "all"
+        }
+        {
+          "talk_id": "97",
+          "title": "Evening Snacks",
+          "start_time": "18:00",
+          "end_time": "18:20",
+          "track": "all"
+        }
+      ],
+      "2019-08-04": [
+        {"order":[1]},
+        {
+          "talk_id": "00",
+          "title": "Registration",
+          "start_time": "9:30",
+          "end_time": "10:00",
+          "track": "all"
+        },
+        {
+          "talk_id": "00",
+          "title": "Dapp Using Ethereum & IPFS a Hands on workshop by Tapasweni Pathak",
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "track": "all"
+        },
+        {
+          "talk_id": "15",
+          "title": "Detailed Study of Distributed Ledgers Operated at Scale By Tapasweni Pathak",
+          "start_time": "11:30",
+          "end_time": "12:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "14",
+          "title": "Handling Nonstationarity in Financial Time Series Analysis By Jaidev Deshpande",
+          "start_time": "12:00",
+          "end_time": "12:30",
+          "track": "1"
+        },
+        {
+          "talk_id": "16",
+          "title": "Principles behind consensus protocols (e.g. Algorand, Avalanche), by Prashant Agarwal",
+          "start_time": "12:30",
+          "end_time": "13:15",
+          "track": "all"
+        },
+        {
+          "talk_id": "97",
+          "title": "Lunch & Networking",
+          "start_time": "13:15",
+          "end_time": "14:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "17",
+          "title": "Impact of the intersection of AI, IoT, and Blockchain on FinTech by Anurag Yadav",
+          "start_time": "14:00",
+          "end_time": "14:30",
+          "track": "1"
+        },
+        {
+          "talk_id": "18",
+          "title": "Panel Discusssion: AI & Blockchain in Finance\nBy Jaidev Deshpande, Prasanna Lohar, Deepak Lalan, Tapasweni Pathak, Prashant Aggarwal, Vartul Mittal,Oliver Feldmeier",
+          "start_time": "14:30",
+          "end_time": "15:30",
+          "track": "1"
+        },
+        {
+          "talk_id": "98",
+          "title": "Tea & Networking",
+          "start_time": "15:30",
+          "end_time": "16:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "19",
+          "title": "Identeties on blockchain and it's impact on Financial Services by Deepak Lalan",
+          "start_time": "16:00",
+          "end_time": "16:40",
+          "track": "1"
+        },
+        {
+          "talk_id": "20",
+          "title": "Future of work with Blockchain\nBy Prasanna Lohar",
+          "start_time": "16:30",
+          "end_time": "17:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "34",
+          "title": "Closing Ceremony",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "track": "1"
+        }
+
+      ]
+    }
+  ]
+}
