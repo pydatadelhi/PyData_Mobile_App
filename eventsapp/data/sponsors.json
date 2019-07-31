@@ -4,42 +4,42 @@
       "name": "Go-Jek",
       "type": "Platinum",
       "website": "https://www.gojek.io/",
-      "logo": "http://paste.opensuse.org/view/raw/55509579",
+      "logo": "https://paste.opensuse.org/images/55509579.png",
       "about": "GOJEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest-growing unicorn building an on-demand empire."
     },
     {
       "name": "Barclays",
       "type": "Platinum",
       "website": "https://home.barclays/",
-      "logo": "https://pydata.org/delhi2019/media/sponsor_files/file-4.jpeg",
+      "logo": "https://paste.opensuse.org/images/63343789.jpg",
       "about": "Barclays moves, lend, invests and protect money for customers and clients worldwide. We are a Transatlantic Consumer, Corporate and Investment bank offering products and services across Personal, Corporate and Investment Banking, Credit cards and Wealth management, with a strong presence in our two home markets of the UK and the US."
     },
     {
       "name": "Python Software Foundation",
       "type": "Gold",
       "website": "https://www.python.org/psf/",
-      "logo": "https://pydata.org/delhi2019/media/sponsor_files/psf-logo-372x84-alpha.png",
+      "logo": "https://paste.opensuse.org/images/6303849.png",
       "about": "he mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership"
     },
     {
       "name": "Onepanel",
       "type": "Gold",
       "website": "https://www.onepanel.io/",
-      "logo": "https://pydata.org/delhi2019/media/sponsor_files/openpanel.png",
+      "logo": "http://paste.opensuse.org/images/79033558.png",
       "about": "Onepanel is an open and extensible platform for building, training and deploying reproducible deep learning applications at scale. Onepanel enables distributed teams to build, train and deploy deep learning applications on a fully managed, distributed and elastic infrastructure. Our pre-built environments are loaded with familiar open-source tools and can scale to many instances for training complex models. Code, data, parameters and environments are version controlled and reproducible, simplifying collaboration, knowledge transfer and accelerating ideation. Onepanel is based on Kubernetes and can be deployed on-premise or on any cloud provider."
     },
     {
       "name": "Elastic",
       "type": "Silver",
       "website": "https://www.elastic.co",
-      "logo": "https://pydata.org/delhi2019/media/sponsor_files/elastic-logo-V-full_color.png",
+      "logo": "http://paste.opensuse.org/images/44059215.png",
       "about": ""
     },
     {
       "name": "O4S",
       "type": "Silver",
       "website": "https://o4s.io/",
-      "logo": "https://pydata.org/delhi2019/media/sponsor_files/O4S_logo_Final_w_shadows_1.png",
+      "logo": "http://paste.opensuse.org/images/67588334.png",
       "about": "O4S is a SaaS-based technology startup that enables companies to have a 360° control over their downstream supply chain via a suite of easily scalable desktop software and mobile apps. O4S is currently working with over 25 prominent brands such as ITC Limited, PepsiCo Inc., Honeywell International, Campus Activewear and aims to re-establish the loyal connect between the brands and kirana stores/retailers, simultaneously preventing product counterfeits."
     }
   ]
