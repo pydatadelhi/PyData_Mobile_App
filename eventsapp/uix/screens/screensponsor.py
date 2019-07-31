@@ -35,6 +35,7 @@ class ScreenSponsor(Screen):
             GridLayout
                 cols: 1
                 orientation: 'vertical'
+                padding: dp(9)
                 spacing: dp(4)
                 size_hint_y: None
                 height: self.minimum_height
@@ -52,14 +53,14 @@ class ScreenSponsor(Screen):
         on_release:
             import webbrowser
             webbrowser.open(\
-            'https://in.pycon.org/2018/sponsorship_prospectus.pdf')
+            'https://drive.google.com/file/d/1Zl_JBEbSC-voMWIya_KfZ7z1X4bd-yER/view')
     ActiveButton
         text: 'Contact Us'
         size_hint_y: None
         height: dp(40)
         on_release:
             import webbrowser
-            webbrowser.open('mailto:sponsorship@in.pycon.org')
+            webbrowser.open('mailto:delhi@pydata.org')
 
 <Sponsor>
     orientation: 'vertical'

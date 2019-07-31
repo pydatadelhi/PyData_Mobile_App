@@ -77,6 +77,12 @@ class ScreenTalks(Screen):
                 BackLabel:
                     id: talk_desc
         BoxLayout
+            canvas.before:
+                Color:
+                    rgba: app.base_inactive_color[:3]+ [.2]
+                Rectangle:
+                    size: self.width + dp(10), self.height
+                    pos: self.x - dp(5), self.y
             size_hint_y: None
             height: dp(54)
             padding: dp(9)
@@ -85,7 +91,7 @@ class ScreenTalks(Screen):
                 data: talk_title.text
                 source: 'atlas://data/default/share'
                 color: app.base_active_bright[:3] + [.9]
-                on_release: do_share("Check out this talk `" + self.data + "` by `" + root._speaker_name + "` @ http://BlockchainCon.io", 'Global Blockchain Conference 2019')
+                on_release: do_share(self.data + "` by `" + root._speaker_name + "` @ http://pydata.org/delhi2019", 'PyData Delhi Conference 2019')
             # ImBut
             #     data: ''
             #     source: 'atlas://data/default/reminder'

@@ -66,11 +66,11 @@ class NavigationScreen(Screen):
                 on_released:
                     load_screen(\
                     'ScreenOpenSpaces', manager=app.navigation_manager)
-            MenuButton
-                text: 'DevSprints'
-                on_released:
-                    load_screen(\
-                    'ScreenDevSprints', manager=app.navigation_manager)
+            # MenuButton
+            #     text: 'DevSprints'
+            #     on_released:
+            #         load_screen(\
+            #         'ScreenDevSprints', manager=app.navigation_manager)
             MenuButton
                 text: 'Conference Feedback'
                 on_released:

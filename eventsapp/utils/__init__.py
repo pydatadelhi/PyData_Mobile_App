@@ -36,7 +36,7 @@ def set_reminder(self, title, time):
     PythonActivity.mActivity.startActivity(intent)
 
 
-def do_share(data, title):
+def do_share(data, title=''):
     if platform != 'android':
         return
     sendIntent = Intent()

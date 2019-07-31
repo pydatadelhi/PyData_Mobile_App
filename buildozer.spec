@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = PyDataDelhi Conf 2019
+title = PyData Delhi2019
 
 # (str) Package name
 package.name = conf2019
@@ -28,7 +28,7 @@ source.include_exts = py,png,jpg,jpeg,kv,atlas,json,vs,fs,gif
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.4.0
+version = 0.5.0
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -36,7 +36,8 @@ version = 0.4.0
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = python3, android, kivy, openssl, requests, futures, sentry-sdk==0.3.0, urllib3, certifi
+requirements = python3, kivy, openssl, requests, sentry-sdk, urllib3, certifi
+#, openssl, requests, futures, sentry-sdk==0.3.0, urllib3, certifi
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -68,7 +69,7 @@ orientation = portrait
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 1.10.1
+osx.kivy_version = 1.11.0
 
 #
 # Android specific
@@ -154,7 +155,7 @@ android.add_activities = org.pythonindia.qr.SimpleScannerActivity
 #android.add_activites = com.example.ExampleActivity
 
 # (str) python-for-android branch to use, defaults to stable
-p4a.branch = master
+#p4a.branch = develop
 
 # (str) OUYA Console category. Should be one of GAME or APP
 # If you leave this blank, OUYA support will not be enabled
@@ -187,13 +188,13 @@ p4a.branch = master
 #android.library_references =
 
 # (str) Android logcat filters to use
-android.logcat_filters = *:S python:D
+#android.logcat_filters = *:S python:D
 
 # (bool) Copy library instead of making a libpymodules.so
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
-android.arch = armeabi-v7a
+#android.arch = arm64-v8a
 
 #
 # Python for android (p4a) specific

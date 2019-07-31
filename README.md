@@ -21,8 +21,8 @@ WIP
 - https://kivy.org/docs/api-kivy.modules.screen.html
 
 ## To change images in app
-   - Paste/change the image in BlockchainDevs/tools/theming
-   - Change your directory to BlockchainDevs-Mobile-App
+   - Paste/change the image in PyDataDelhi/tools/theming
+   - Change your directory to PyDataDelhi-Mobile-App
    - Run command ``make theming``
 
 This command will aggregate all the png images in your file to one atlas
@@ -33,4 +33,4 @@ from which the images are loaded.
 1. Install buildozer: pip install buildozer
 2. Edit the buildozer.spec to specify if you have android ndk and sdk,
    if not they will be automatically be downloaded by the next step.
-3. Connect your mobile, enable usb debugging, Then goto BlockchainDevs
+3. Connect your mobile, enable usb debugging, Then goto PyDataDelhi

@@ -32,21 +32,23 @@ class TalkInfo(
     size_hint_y: None
     height: max(lblinfo.texture_size[1] + dp(24), dp(40))
     spacing: dp(9)
-    on_release:
-        from utils import load_screen
-        scr = load_screen('ScreenTalks', manager=app.navigation_manager)
-        scr.talkid = self.talk['talk_id']
+    # on_release:
+    #     from utils import load_screen
+    #     scr = load_screen('ScreenTalks', manager=app.navigation_manager)
+    #     scr.talkid = self.talk['talk_id']
     LeftAlignedLabel:
+        id: lblleft
         size_hint: None, 1
         valign: 'middle'
-        width: dp(45)
-        color: .09, .09, .09, 1
-        text: "{}\\n{}".format(root.talk['start_time'], root.talk['end_time'])
+        width: dp(60)
+        bold: True
+        color: app.base_active_bright
+        font_size: dp(11)
+        text: "{}-{}".format(root.talk['start_time'], root.talk['end_time'])
     Label:
         id: lblinfo
         valign: 'middle'
-        size_hint: 1, 1
-        color: .09, .09, .09, 1
+        color: app.base_inactive_light
         text_size: self.width, None
         text: root.talk['title']
 ''')
@@ -87,14 +89,14 @@ class ScreenSchedule(Screen):
                 pos: self.x, self.top - dp(45)
         orientation: 'vertical'
         padding: dp(4)
-        TabbedCarousel
+        TabbedPanel
             id: accordian_days
-            # canvas.before:
-            #     Color
-            #         rgba: app.base_inactive_light
-            #     Rectangle:
-            #         size: self.width + dp(12), dp(54)
-            #         pos: -dp(4), -dp(4)
+            canvas.before:
+                Color
+                    rgba: app.base_inactive_light
+                Rectangle:
+                    size: self.width + dp(12), dp(54)
+                    pos: -dp(4), -dp(4)
 
             background_color: 1, 1, 1, 0
             do_default_tab: False
@@ -173,7 +175,7 @@ class ScreenSchedule(Screen):
             key=lambda x: datetime.datetime.strptime(x, '%Y-%m-%d'))
 
         # perf optims, minimize dot lookups
-        acordion_add = self.ids.accordian_days.add_widget
+        day_panel_add = self.ids.accordian_days.add_widget
         TI = Factory.TabbedPanelItem
         Track = Factory.Track
 
@@ -181,33 +183,37 @@ class ScreenSchedule(Screen):
         today = datetime.datetime.now()
         strt = datetime.datetime.strptime
         for date in dates:
-            # add current day as accordion widget
+            # add current day as TabbedPanelItem
             ccday = strt(date, "%Y-%m-%d")
-            cday = TI(text=ccday.strftime("%d %b"))
-
-            if ltracks > 1: 
-                acordion_add(cday)
-            
+            # Let's create a Screen for current day
+            screenday = Track(name=ccday.strftime("%d %b"))
+            ti =  TI(text=screenday.name)
+            ti.add_widget(screenday)
+            day_panel_add(ti)
+            if not first:
+                first =  ti
+            # let's order all our tracks/hall numbers
             day_sched = schedule[date]
             order, day_sched = day_sched[0]["order"], day_sched[1:]
             try:
                 tracks = [schedule['tracks'][int(trk)-1] for trk in order]
             except IndexError:
                 tracks = [schedule['tracks'][0]]
+            # we have a ordered list of tracks now
             # create a carousel for each track
             tcarousel = TabbedCarousel()
-            ti = TalkInfo
-
             # this carousel would show each track as new tab
             trackscreens = []
             tsa = trackscreens.append
-            tca = tcarousel.add_widget if ltracks > 1 else acordion_add
+            tca = tcarousel.add_widget
             for track in tracks:
-                new_trk = Track(name=track if ltracks > 1 else ccday.strftime("%d %b"),)
+                new_trk = Track(name=track)
                 tsa(new_trk)
                 # add track to carousel
                 tca(new_trk)
+            screenday.add_widget(tcarousel)
 
+            # Populate Tracks
             for talk in day_sched:
                 tid = talk['track']
                 if tid.lower() == 'all':
@@ -220,7 +226,5 @@ class ScreenSchedule(Screen):
                     trackscreens[int(tid)-1].ids.container.add_widget(ti)
                 except IndexError:
                     pass
-
-            if ltracks > 1: cday.add_widget(tcarousel)
-        
+        first.trigger_action()
         Factory.Animation(d=.5, opacity=1).start(container)
