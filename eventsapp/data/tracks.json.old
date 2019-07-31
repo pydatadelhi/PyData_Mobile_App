@@ -1,0 +1,306 @@
+{
+	"0.0.1": [{
+		"00": {
+			"title": "Registration",
+			"description": "Register yourselves and get your goodie bag. Have a great day!",
+			"type": "default",
+			"speaker": {
+				"name": "Registeration Team",
+				"info": "Bring your Tickets up to the counters and get registered.",
+				"photo": "data/images/register.jpg"
+			}
+		},
+		"01": {
+			"title": "Innauguration Ceremony",
+			"description": "Esteemed members of the organising Commitee and prominent personalities would be innaugurating the Conference.",
+			"type": "innauguration",
+			"speaker": {
+				"name": "Delhi University",
+				"info": "Ramanujan college is a premier institution of the University of Delhi and has been accredited grade `A` by the National Assessment and Accreditation Council (NAAC). We at Ramanujan College emphasize on the holistic development of personality and meaningful exposure to real world and in the process attain excellence. In this endeavour to organise a value packed Global FinTech Conference, Department of Commerce, Computer Science and Management Studies of Ramanujan College have locked their synergies together.",
+				"photo": "data/images/inauguration.jpg",
+				"social": {
+					"website": "http://rcdu.in"
+				}
+			}
+		},
+		"02": {
+			"title": "Blockchain for money market and intra day settelment",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Debajani Mohanty",
+				"info": "Author of Amazon bestseller “BlockChain from Concept to Execution” and “Ethereum for Architects and Developers”. Debajani is a NASSCOM event speaker, Honorary Faculty with Amity University and among the international panels of mentors at Kerala BlockChain Academy, the first BlockChain Academy in India. Debajani is also a woman activist and writer. She has been felicitated by Nobel Peace prize winner Mr Kailash Satyarthi with the prestigious Aarya award for her outstanding contributions to women empowerment in the field of literature. ",
+				"photo": "data/images/debajanim.jpeg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/debajanimohantypmp",
+					"twitter": "https://twitter.com/debimr75",
+					"website": "https://www.amazon.com/Debajani-Mohanty/e/B019P08UKM"
+				}
+			}
+		},
+		"03": {
+			"title": "Blockchain of Things: Blockchain adoption in `iot`",
+			"description": "",
+			"type": "Talk",
+			"speaker": {
+				"name": "Vartul Mittal",
+				"info": "Vartul Mittal is a leading Technology & Blockchain Research & Development Specialist and a seasoned Digital Transformation & Automation leader. He has 12+ years of strong Global Business Transformation experience in Management Consulting and with Global-Inhouse-Centres with a remit to drive understanding and deliver Business Operations & Technology Strategy solutions globally. ",
+				"photo": "data/images/vartul.jpeg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/vartulmittal/",
+					"twitter": "https://twitter.com/vratulmittal"
+			
+				}
+			}
+		},
+		"05": {
+			"title": "Blockchain enabled data sharing",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Professor Sushmita Ruj",
+				"info": "Sushmita Ruj is an Assistant Professor at Indian Statistical Institute, Kolkata. She is currently working on blockchain, cryptocurrencies, cloud security, security and privacy in IoT, mobile ad hoc networks, vehicular networks, smart grids. She is a member of the advisory committee of Kerala Blockchain academy ",
+				"photo": "data/images/sush.jpeg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/sushmitaruj/",
+					"website": "https://www.isical.ac.in/~sush/"
+				}
+			}
+		},
+		"06": {
+			"title": "Emerging dimensions of Blockchain Technology",
+			"description": "",
+			"type": "workshop",
+			"speaker": {
+				"name": "Paritosh Basu",
+				"info": "Dr. Basu is a scholarly academician with a background of thirty-four years corporate experience mainly in finance, strategic planning and IT enablement functions. His last two corporate positions were that of the Group Controller and CFO of two large MNCs of India. Presently he is a full time Senior Professor and Chairperson of MBA (Law) of NMIMS University School of Business Management. and engaged in several research and consulting activities. His current areas of research include professional scepticism, Industry 4.0, blockchain, artificial intelligence and digital transformation. ",
+				"photo": "data/images/paritoshb.jpeg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/dr-paritosh-basu-87a67a15/",
+					"twitter": "https://twitter.com/paritoshbasu"
+				}
+			}
+		},
+		"07": {
+			"title": "Panel Discussion: Impact of Decentralised Tech on Finance",
+			"description": "",
+			"type": "workshop",
+			"speaker": {
+				"name": "Debajani Mohanty, Simrit Kaur, Paritosh Basu, Sushmita Ruj",
+				"info": "Prof. Kaur is currently the Principle of SRCC, University of Delhi and has undertaken several research projects and acted as an advisor to institutes and organizations such as the Ministry of Finance/Industry (Government of India), National Council of Applied Economic Research (NCAER), the Organization for Economic Cooperation and Development (OECD), International Fund for Agricultural Development (IFAD) and the Food and Agriculture Organization (FAO) of the United Nations.",
+				"photo": "data/images/paneld.jpg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/simrit-kaur-09ab7989/"
+				}
+			}
+		},
+		"08": {
+			"title": "Quantum Resistant and Quantum Assisted Blockchains - Algorithms, Architectures and Applications ",
+			"description": "",
+			"type": "Talk",
+			"speaker": {
+				"name": "Gokul Baby Alex",
+				"info": "Gokul Alex is a Blockchain Educator, Enterprise Architect, Data Scientist, Internet Technologist, and Quantum Computing Researcher with strong expertise on Artificial Intelligence, Distributed Computing, Digital Transformation, Epistemology, Innovation Management, Social Entrepreneurship and Semiotics. ",
+				"photo": "data/images/gokula.jpeg",
+				"social": {
+					"twitter": "https://twitter.com/gokulgaze",
+					"linkedin": "https://www.linkedin.com/in/gokulbabyalex"
+				}
+			}
+		},
+		"09": {
+			"title": "Searchable Encryption for outsourcing banking services to the cloud",
+			"description": "",
+			"type": "Talk",
+			"speaker": {
+				"name": "Vishal Saraswat",
+				"info": "Vishal Saraswat, Visiting Faculty, at the Indian Institute of Technology (IIT), Jammu, and formerly, Visiting Scientist, at the Indian Statistical Institute (ISI), Kolkata, and Assistant Professor, at the C.R.Rao Advanced Institute of Mathematics, Statistics and Computer Science (AIMSCS), Hyderabad-India, studying Number Theory, Cryptography, Computer Security, and related subjects. ",
+				"photo": "data/images/vishals.jpeg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/saraswat",
+					"website": "http://crypta.in"
+				}
+			}
+		},
+		"11": {
+			"title": "Blockchain @ Telecom",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Vipin Rathi",
+				"info": "Vipin is expert in Hyperledger. He is the Hyperledger Telecom SIG chair. Previous experience includes CERN, Deutsche Telekom. His reserearch work includes Telecom on Blockchain, Distributed Consensus Protocols, Edge Computing. Vipin is organizer of open source Meetup groups like Hyperledger, OSNUG, Openstack India etc. ",
+				"photo": "data/images/vipinr.jpg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/vipratos",
+					"email": "vipin68_scs@jnu.ac.in"
+				}
+			}
+		},
+		"12": {
+			"title": "Legalities and Regulations around emerging Technologies like blockchain",
+			"description": "",
+			"type": "workshop",
+			"speaker": {
+				"name": "Pavan Duggal",
+				"info": "Advocate, Supreme Court of India; Founder & Owner, Pavan Duggal Associates & Head - Artificial Intelligence Law Hub. Practicing as an advocate, Supreme Court of India, for over 2 decades. He is the Founder & Chairman of International Commission on Cyber Security Law. Dr Duggal is also a member of the WIPO Arbitration and Mediation Center Panel of Neutrals.",
+				"photo": "data/images/pavand.jpg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/pavanduggal/",
+					"twitter": "https://twitter.com/pavanduggal"
+				}
+			}
+		},
+		"13": {
+			"title": "Can payment banks deliver financial inclusion?",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Indradeep Ghosh",
+				"info": "Associate Professor & Dean (Faculty) at Meghnad Desai Academy of Economics. Indradeep Ghosh is Associate Professor & Dean (Faculty) at Meghnad Desai Academy of Economics. He has a PhD in Economics from MIT, where he was trained as a macroeconomist, but his research interests are now mainly interdisciplinary, and he writes about whatever problem he finds interesting. Recently, he has written in the field of urban economics and is currently thinking about the international political economy of China's BRI, the role of Fintech in financial inclusion, and the cultural economy of the Government's JAM (Jan Dhan, Aadhaar, Mobile) project. ",
+				"photo": "data/images/indrdeepgosh.jpg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/indradeep-ghosh-371b81126/",
+					"email": "indradeep.ghosh2@gmail.com"
+				}
+			}
+		},
+		"14": {
+			"title": "Handling Nonstationarity in Financial Time Series Analysis",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Jaidev Deshpande",
+				"info": "Jaidev specializes in building end-to-end machine learning solutions and data driven products. In the last seven years he has built machine learning software for scientific computing, healthcare and logistics. He has written open source libraries for nonstationary time series analysis and harmonic analysis which are part of academic curricula in various universities. You're likely to run into him at any FOSS event. ",
+				"photo": "data/images/jaidev.jpg",
+				"social": {
+					"website": "http://www.brocabrain.blogspot.com/",
+					"linkedin": "https://www.linkedin.com/in/jaidevd/",
+					"twitter": "https://twitter.com/jaidevd"
+				}
+			}
+		},
+		"15": {
+			"title": "Detailed study of distributed ledgers operated at scale",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Tapasweni Pathak",
+				"info": "Tapasweni as a Manager at Reliance Jio Financial Innovation focuses on owning highly distributed system based financial products from end to end work and making them seamlessly available. She likes keeping herself involved with open source projects and communities. ",
+				"photo": "data/images/tapasw.jpg",
+				"social": {
+					"twitter": "https://twitter.com/Tapaswenipathak",
+					"linkedin": "https://www.linkedin.com/in/tapaswenipathak",
+					"website": "http://tapaswenipathak.github.io/"
+				}
+			}
+		},
+		"16": {
+			"title": "Principles behind consensus protocols (e.g. Algorand, Avalanche)",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Prashant Agarwal",
+				"info": "Prashant is pursuing a Ph.D. in the Department of Computer Science, IIT Delhi. His primary research interest is in formal verification, and he is currently looking at the problem of distributed verification in an adversarial environment which has huge impact on the security of various modern cryptocurrencies. Prior to this, he has worked in the software industry for about 6 years, working as a software developer and an architect in companies like Nvidia and Enthought. He has a Bachelors and a Masters degree in Aerospace Engineering from IIT Bombay.",
+				"photo": "data/images/prashanta.jpg",
+				"social": {
+					"twitter": "",
+					"linkedin": "",
+					"website": ""
+				}
+			}
+		},
+		"17": {
+			"title": "Impact of the intersection of AI, IoT, and Blockchain on FinTech",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Anurag Yadav",
+				"info": "Anurag Yadav is an Entrepreneur, Blockchain Consultant, and a regular speaker at Blockchain Conferences. He has over seventeen years of experience, has led Global Organizations, and has lived and worked in several countries. Currently, he is the Co-Founder & CEO of PrimaFelicitas LLC, a leading Blockchain Consultancy and an end-to-end Blockchain Technology Solution Provider, based in San Francisco, London, and New Delhi. PrimaFelicitas is focussed on developing innovative Blockchain products for Governments, Enterprises, and start-ups in the FinTech, Energy, Securities, Healthcare, Digital Commerce, Real Estate, Payment Settlement, and Gaming sectors. Anurag is an Engineering Graduate from the Indian Institute of Technology (IIT) and holds a Master’s in Business from the Stanford University. ",
+				"photo": "data/images/anurag19.jpg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/anurag-yadav",
+					"website": "http://PrimaFelicitas.com/"
+				}
+			}
+		},
+		"18": {
+			"title": "Panel Discusssion: AI & Blockchain in Finance",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Jaidev Deshpande, Prasanna Lohar, Deepak Lalan, Tapasweni Pathak, Prashant Aggarwal, Oliver Feldmeier",
+				"info": "",
+				"photo": "data/images/paneld.jpg"
+			}
+		},
+		"19": {
+			"title": "Identeties on blockchain and it's impact on Financial Services",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Deepak Lalan",
+				"info": "Deepak Lalan is a Blockchain practice leader at Accenture. A vivid keynote speaker at major industry conferences and an Enterprise blockchain subject matter advisor to corporates (board C-level). Professional experiences include AI, Blockchain, Cloud, Data, and Enterprise Architecture. Intrigued by lean philosophy, design thinking, and Game of Thrones series. Currently aspiring to a be a rock climber. ",
+				"photo": "data/images/deepak43.png",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/deepaklalan",
+					"website": "http://deepak.lalan.me/",
+					"twitter": "https://twitter.com/deepaklalan"
+				}
+			}
+		},
+		"20": {
+			"title": "Future of work with Blockchain",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "Prasanna Lohar",
+				"info": "Over 18 Years of Industry Experience in Engineering & Development, Product Development, Organization Strategy & Governance, Risk Audit Compliance Management, Business Process Management, Enterprise Architecture, Mobile Apps, Digital Transformation, Fintech, E-Commerce, Payments, Platform and Product Innovation, Data Science, Machine Learning, Artificial Intelligence, Open Stack, Cloud Computing, Analytics, Big Data, IOT, BlockChain, UI-UX, Product Roadmap Strategy, Business Development , Leadership & Team Building ",
+				"photo": "data/images/prasannal.jpg",
+				"social": {
+					"linkedin": "https://www.linkedin.com/in/prasannalohar",
+					"twitter": "https://twitter.com/LoharPrasanna"
+				}
+			}
+		},
+		"97": {
+			"title": "Lunch",
+			"description": "Delicious Delhi cuisine",
+			"type": "workshop",
+			"speaker": {
+				"name": "DU Caterors",
+				"info": "Gourmet? Street? What will be served?",
+				"photo": "data/images/lunch.png"
+			}
+		},
+		"98": {
+			"title": "Tea",
+			"description": "Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the tea plant, Camellia sinensis, a sub-tropical evergreen plant native to Asia but now grown around the world. After water, tea is the most widely consumed beverage in the world. It has a cooling, slightly bitter, and astringent flavour that many people enjoy. Tea originated in China as a medicinal drink. The tea plant grows best in loose, deep soil, at high altitudes, and in sub-tropical climates. Tea has long been promoted for having a variety of positive health benefits.",
+			"type": "talk",
+			"speaker": {
+				"name": "DU Caterors",
+				"info": "",
+				"photo": "data/images/tea.png"
+			}
+		},
+		"99": {
+			"title": "Lightning Talks",
+			"description": "A lightning talk is a very short presentation lasting only a few minutes, given at a conference or similar forum. Several lightning talks will usually be delivered by different speakers in a single session, sometimes called a data blitz.\n\n Any one can give a talk on any topic related to the event.",
+			"type": "talk",
+			"speaker": {
+				"name": "Every one",
+				"info": "",
+				"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8vFmQ9PPGjnlW4QxmYuaDylIWe-iVptOd_qwz4OEwvCOTz86Abg"
+			}
+		},
+		"100": {
+			"title": "Closing Ceremony",
+			"description": "",
+			"type": "talk",
+			"speaker": {
+				"name": "By Manivannan Elangovan, Chair - PyCon India 2018",
+				"info": "",
+				"photo": "http://paste.opensuse.org/view/raw/14567693"
+			}
+		}
+	}]
+}

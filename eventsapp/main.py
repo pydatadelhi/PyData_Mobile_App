@@ -1,16 +1,15 @@
 # -*- coding: utf8 -*-
 '''App for PyConIndia 2018:
 
-Github Repo: http://github.com/pythonindia/PyCon-Mobile-App
+Github Repo: http://github.com/pydatadelhi/PyData-Mobile-App
 '''
 
-__version__ = '0.4.0'
+__version__ = '0.5.0'
 
 # setup error reporting
-# import sentry_sdk
-# sentry_sdk.init(
-#     "https://0002ee03a88d419a886333ab69f01df5@sentry.io/1284618",
-#     debug=True)
+import sentry_sdk
+sentry_sdk.init("https://471620b7461047a88de95aa3b0eb8452@sentry.io/1502518",
+    debug=True)
 # That's all for error reporting
 
 import os
@@ -21,7 +20,7 @@ from os.path import abspath, dirname
 # This way you avoid first loading kivy default images and .kv then
 # loading your data files on top.
 os.environ['KIVY_DATA_DIR'] = abspath(dirname(__file__)) + '/data'
-os.environ["PYCONF_OFFLINE_MODE"] = "1"
+#os.environ["PYCONF_OFFLINE_MODE"] = "1"
 
 # import App this is the main Class that manages UI's event loop
 from kivy.app import App
