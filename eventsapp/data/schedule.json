@@ -166,7 +166,7 @@
           "track": "1"
         },
         {
-          "talk_id": "34",
+          "talk_id": "94",
           "title": "Closing & Group Photo",
           "start_time": "17:50",
           "end_time": "18:00",
@@ -181,90 +181,160 @@
         }
       ],
       "2019-08-04": [
-        {"order":[1]},
+        {"order":[1,2,3]},
         {
           "talk_id": "00",
-          "title": "Registration",
-          "start_time": "9:30",
+          "title": "Coffee & Registration",
+          "start_time": "08:00",
+          "end_time": "08:50",
+          "track": "all"
+        },
+        {
+          "talk_id": "22",
+          "title": "Differentiable Programming: An Exciting Generalization of Deep Neural Networks Dr. Viral B. Shah (Hall C101)",
+          "start_time": "09:00",
           "end_time": "10:00",
           "track": "all"
         },
         {
-          "talk_id": "00",
-          "title": "Dapp Using Ethereum & IPFS a Hands on workshop by Tapasweni Pathak",
+          "talk_id": "23",
+          "title": "Deep Sequence Models for Attribute Extraction from Product Titles by Deepak Sharma",
           "start_time": "10:00",
+          "end_time": "10:45",
+          "track": "1"
+        },
+        {
+          "talk_id": "24",
+          "title": "Automated Large Scale Forecasting for 1000+ products by Aanish Singla, Nikita Sharma",
+          "start_time": "10:00",
+          "end_time": "10:45",
+          "track": "2"
+        },
+        {
+          "talk_id": "25",
+          "title": "Advance ML- On Improving Performance of Machine Learning Models by Optimizing Hyper-parameters by Anubav Kesari, Tanay Agrawal",
+          "start_time": "10:00",
+          "end_time": "12:15",
+          "track": "3"
+        },
+        {
+          "talk_id": "26",
+          "title": "Improving Model Lifecycle Management for Machine Learning Models by Pankaj Gupta",
+          "start_time": "10:45",
           "end_time": "11:30",
-          "track": "all"
+          "track": "1"
         },
         {
-          "talk_id": "15",
-          "title": "Detailed Study of Distributed Ledgers Operated at Scale By Tapasweni Pathak",
+          "talk_id": "27",
+          "title": "Building robust AI models against adversarial attacks: Python libraries Cleverhans and Foolbox by Deya Chatterjee",
+          "start_time": "10:45",
+          "end_time": "11:30",
+          "track": "2"
+        },
+        {
+          "talk_id": "28",
+          "title": "Using NLP for disaster management by Kaustubh Hiware",
           "start_time": "11:30",
-          "end_time": "12:00",
+          "end_time": "12:15",
           "track": "1"
         },
         {
-          "talk_id": "14",
-          "title": "Handling Nonstationarity in Financial Time Series Analysis By Jaidev Deshpande",
-          "start_time": "12:00",
-          "end_time": "12:30",
-          "track": "1"
+          "talk_id": "29",
+          "title": "Building interactive data visualisations with Altair & Django by Rajesh Golani",
+          "start_time": "11:30",
+          "end_time": "12:15",
+          "track": "2"
         },
         {
-          "talk_id": "16",
-          "title": "Principles behind consensus protocols (e.g. Algorand, Avalanche), by Prashant Agarwal",
-          "start_time": "12:30",
-          "end_time": "13:15",
-          "track": "all"
+          "talk_id": "30",
+          "title": "Panel Discussion",
+          "start_time": "12:15",
+          "end_time": "13:30",
+          "track": "1"
         },
         {
           "talk_id": "97",
           "title": "Lunch & Networking",
-          "start_time": "13:15",
-          "end_time": "14:00",
+          "start_time": "13:30",
+          "end_time": "15:00",
+          "track": "all"
+        },
+        {
+          "talk_id": "31",
+          "title": "Understanding user churn in GoPay (Sponsored Talk) by Karthik Vijayakumar, Sruthi S",
+          "start_time": "15:00",
+          "end_time": "15:45",
           "track": "1"
         },
         {
-          "talk_id": "17",
-          "title": "Impact of the intersection of AI, IoT, and Blockchain on FinTech by Anurag Yadav",
-          "start_time": "14:00",
-          "end_time": "14:30",
-          "track": "1"
+          "talk_id": "32",
+          "title": "Automating Deep Learning Workflows (Sponsored Talk) by Joinal Ahmed",
+          "start_time": "15:00",
+          "end_time": "15:45",
+          "track": "2"
         },
         {
-          "talk_id": "18",
-          "title": "Panel Discusssion: AI & Blockchain in Finance\nBy Jaidev Deshpande, Prasanna Lohar, Deepak Lalan, Tapasweni Pathak, Prashant Aggarwal, Vartul Mittal,Oliver Feldmeier",
-          "start_time": "14:30",
-          "end_time": "15:30",
-          "track": "1"
-        },
-        {
-          "talk_id": "98",
-          "title": "Tea & Networking",
-          "start_time": "15:30",
-          "end_time": "16:00",
-          "track": "1"
-        },
-        {
-          "talk_id": "19",
-          "title": "Identeties on blockchain and it's impact on Financial Services by Deepak Lalan",
-          "start_time": "16:00",
-          "end_time": "16:40",
-          "track": "1"
-        },
-        {
-          "talk_id": "20",
-          "title": "Future of work with Blockchain\nBy Prasanna Lohar",
-          "start_time": "16:30",
-          "end_time": "17:00",
-          "track": "1"
+          "talk_id": "33",
+          "title": "Machine Learning Security - The Data Scientist's Guide to Hardening ML Models by Arjun Bahuguna",
+          "start_time": "15:00",
+          "end_time": "17:10",
+          "track": "3"
         },
         {
           "talk_id": "34",
-          "title": "Closing Ceremony",
-          "start_time": "17:00",
-          "end_time": "17:05",
+          "title": "Knowledge Graph made simple using NLP and Transfer Learning by Suyog Swami",
+          "start_time": "15:45",
+          "end_time": "16:30",
           "track": "1"
+        },
+        {
+          "talk_id": "35",
+          "title": "How I Used Data Visualization in My Quest for the Perfect Wine by Pranav Suri",
+          "start_time": "15:45",
+          "end_time": "16:30",
+          "track": "2"
+        },
+        {
+          "talk_id": "36",
+          "title": "Image Manipulation Detection using Neural Networks by Sonal Kukreja",
+          "start_time": "16:30",
+          "end_time": "17:10",
+          "track": "1"
+        },
+        {
+          "talk_id": "37",
+          "title": "Autocorrect of words and Autosuggest of Sentences by Sayantan Gangopadhyay",
+          "start_time": "16:30",
+          "end_time": "17:10",
+          "track": "2"
+        },
+        {
+          "talk_id": "38",
+          "title": "Open Spaces",
+          "start_time": "16:30",
+          "end_time": "17:10",
+          "track": "1"
+        },
+        {
+          "talk_id": "39",
+          "title": "BoF Session",
+          "start_time": "16:30",
+          "end_time": "17:10",
+          "track": "2"
+        },
+        {
+          "talk_id": "34",
+          "title": "Closing Notes",
+          "start_time": "17:40",
+          "end_time": "18:00",
+          "track": "all"
+        },
+        {
+          "talk_id": "97",
+          "title": "Evening Snacks",
+          "start_time": "18:00",
+          "end_time": "18:20",
+          "track": "all"
         }
 
       ]
